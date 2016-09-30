@@ -356,6 +356,6 @@ describe("Bottles", function() {
     "No more bottles of beer on the wall, no more bottles of beer.\n" + 
     "Go to the store and buy some more, 99 bottles of beer on the wall.\n";
 
-    expect(expected).toEqual(bottles.lyrics);
+    expect(expected).toEqual(bottles.lyrics());
   });
 });
